@@ -15,7 +15,6 @@ from report import generate_report_markdown
 LOGO_PATH = Path(__file__).resolve().parent.parent / "assets" / "logo.png"
 
 st.set_page_config(page_title="Urban Planning Decision System", layout="wide", page_icon="🏙️", initial_sidebar_state="expanded")
-st.logo(str(LOGO_PATH))
 
 AUTHORITY_LABEL = {
     "primary": "🟢 Current regulation",
@@ -66,6 +65,8 @@ st.markdown(
 st.caption("Demo city: **Chennai** · Powered by a local RAG pipeline over real CMDA planning documents + Ollama (qwen2.5:7b)")
 
 with st.sidebar:
+    st.image(str(LOGO_PATH), width=220)
+    st.divider()
     st.header("📍 City")
     st.write("**Chennai**, Tamil Nadu")
     st.divider()
