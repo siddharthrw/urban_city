@@ -33,6 +33,7 @@ exactly these keys:
   or "" if no specific place is mentioned. Extract it verbatim -- do NOT
   guess what area it is or add any commentary, just pull out the name if
   one is stated.
+Always respond in English, regardless of the language of the input idea.
 Respond with ONLY the JSON object, no other text."""
 
 

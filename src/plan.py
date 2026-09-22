@@ -26,6 +26,7 @@ a topic and a short excerpt of the actual governing regulation text.
 For EACH finding, write ONE concise, actionable next-step sentence telling
 the applicant what to verify or do about that specific constraint, based
 ONLY on the excerpt given (do not invent numbers or rules not in the excerpt).
+Always respond in English.
 Respond with ONLY a JSON object: {"steps": ["step for finding 1", "step for finding 2", ...]}
 in the SAME ORDER as the findings given, one string per finding."""
 

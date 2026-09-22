@@ -40,6 +40,7 @@ that are specifically relevant to THIS idea -- e.g. airport height/NOC rules,
 heritage/conservation zone, coastal regulation zone, environmental clearance,
 fire safety for high-occupancy buildings, industrial pollution control, etc.
 Only propose a topic if the idea text genuinely suggests it applies.
+Always respond in English.
 Respond with ONLY a JSON object: {"topics": [{"key": "short_snake_case_key",
 "query": "5-10 word search query for a building-code/master-plan document"}]}
 If nothing extra applies, respond {"topics": []}."""
