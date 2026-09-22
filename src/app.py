@@ -65,7 +65,7 @@ st.markdown(
 st.caption("Demo city: **Chennai** · Powered by a local RAG pipeline over real CMDA planning documents + Ollama (qwen2.5:7b)")
 
 with st.sidebar:
-    st.image(str(LOGO_PATH), width=220)
+    st.image(str(LOGO_PATH), width=140)
     st.divider()
     st.header("📍 City")
     st.write("**Chennai**, Tamil Nadu")
